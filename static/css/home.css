@@ -4,7 +4,11 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+.author { background: #e314b3; }
+.playlist { background: #ff5722; }
+.blog { background: #4caf50; }
+.github { background: #333; }
+.channel { background: #4d0cd0 }
 header {
     background: #333;
     color: #fff;
@@ -265,10 +269,7 @@ nav ul li a:hover {
     margin-right: 5px;
     margin-top: 7px;
 }
-.author { background: #e314b3; }
-.playlist { background: #ff5722; }
-.blog { background: #4caf50; }
-.github { background: #333; }
+
 
 footer {
     background: #222;
