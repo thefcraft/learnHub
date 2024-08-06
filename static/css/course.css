@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+html, body{
+    background-color: #f4f6f9;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}   
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    position: relative;
+}
+header .logo img {
+    height: 40px;
+}
+    
+header nav {
+    display: flex;
+}
+    
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+    
+header nav ul li {
+    margin: 0;
+}
+    
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+    
+header nav ul li a:hover {
+    color: #007bff;
+}
+    
+header .menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+}
+    
+header .menu-toggle span {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background: #fff;
+    margin: 3px 0;
+    transition: background 0.3s;
+}
+.hero{
+    text-align: center;
+    padding: 20px 0;
+    background: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png') no-repeat center center;
+    background-size: cover;
+    /* background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%); */
+    color: #fff;
+    width: 100%;
+}
+.hero section{
+    padding: 0 20px;
+    margin-top: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.hero nav ol{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+.hero nav ol li{
+    display: flex;
+    align-items: center;
+    height: 18px;
+    color: #413939;
+}
+.hero nav ol li a{
+    all: unset;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hero nav ol li a:hover{
+    color: #000000;
+    font-style: oblique;
+}
+.hero nav ol>li:not(:first-child)::before{
+    content: '❯';
+    font-size: 16px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.hero section h1{
+    font-size: 32px;
+    color: wheat;
+    margin: 15px 0;
+}
+.hero section img{
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    aspect-ratio: 1.77;
+    border: 3px solid;
+    border-radius: 1rem;
+    /* margin: 0 2rem; */
+}
+.hero section span{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+
+    color: #fcfcfc;
+}
+.hero section p{
+    font-size: 20px;
+    margin-top: 6px;
+    color: #e7f8eb;
+}
+
+main{
+    padding: 1rem;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+main ol{
+    list-style: none;
+    margin: 1rem 0;
+    border: 1px solid #1c1c1c;
+    border-radius: 1rem;
+}
+main ol:hover{
+    margin: 0;
+}
+main ol>li:first-child{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+main ol>li:last-child{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom: none;
+}
+main ol li{
+    display: flex;
+    border-bottom: 1px solid #1c1c1c;
+}
+main ol li:hover{
+    background-color: aliceblue!important;
+    padding: 1rem 0;
+}
+main ol li aside.left {
+    display: flex;
+} 
+
+
+
+
+
+
+/* Style the container with relative positioning */
+main ol li aside.left div.image {
+    position: relative;
+}
+main ol li aside.left div.image .playtime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-2px, -7px);
+
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.75); 
+    border-radius: 3px;
+
+    padding: 0 3px;
+}
+main ol li aside.left div.image::before {
+    content: '▶';
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.25); 
+    border-radius: 4rem; 
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+main ol li aside.left div.image:hover::before {
+    background-color: rgba(0, 0, 0, 0.45); /* Darker background on hover */
+}
+main ol li:hover:not(:has(aside.left .watched:hover)) aside.left div.image::before{
+    display: flex;
+}
+
+
+main ol li aside.left .watched{
+    /* margin: auto 0; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    cursor: default;
+}
+main ol li aside.left .watched label{
+    display: flex;   
+    align-items: center;
+    gap: 4px;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+main ol li aside.left .watched label input[type="checkbox"]{
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+main ol li aside.left .watched label input[type="checkbox"] ~ div {
+    width: 46px;
+    height: 32px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: .25rem;
+}
+main ol li aside.left .watched label input[type="checkbox"]:checked ~ div {
+    background-color: #56ea74;
+    opacity: .5;
+}
+main ol li:has(aside.left .watched label input[type="checkbox"]:checked ~ div ):hover{
+    background-color: #e7f8eb!important;
+}
+main ol li:has(aside.left .watched label input[type="checkbox"]:checked){
+    background-color: #f9fffa;
+}
+main ol li aside.left div img{
+    height: 118px;
+    width: 195px;
+    object-fit: cover;
+    border: 2px solid #1c1c1c;
+    border-radius: .4rem;
+    margin-top: 4px;
+    cursor: pointer;
+}
+main ol li aside.right{
+    height: 118px;
+    overflow: hidden;
+    cursor: pointer;
+}
+main ol li aside.right{
+    padding: 6px 0px;
+    padding-left: 12px;
+    padding-right: 6px;
+    width: 100%;
+}
+main ol li aside.right h3{
+    margin: 6px 0;
+    font-size: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main ol li aside.right p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #302f2f;
+    font-size: 18px;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+footer p {
+    color: #fcfcfc;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero nav ol{
+        /* flex-direction: column; */
+    }
+    .hero section{
+        padding: 0 10px;
+    }
+  main {
+    padding: .5rem;
+  }
+  main ol li aside.left .watched {
+    padding: 0 .5rem;
+  }
+  main ol li aside.right {
+    padding-left: 6px;
+    height: 92px;
+    width: -webkit-fill-available;
+  }
+  main ol li aside.left div img {
+    height: 92px;
+    width: 152px;
+  }
+  main ol li aside.right h3 {
+    margin: 4px 0;
+  }
+  main ol li aside.right p{
+    -webkit-line-clamp: 2;
+  }
+
+    header .header-content {
+        /* flex-direction: column; */
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    header nav {
+        width: 250px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        padding: 0;
+        z-index: 1;
+        border-radius: 1em;
+    }
+
+    header nav.active {
+        display: flex;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        gap: 0;
+    }
+    header nav ul>li:first-child{
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    header nav ul>li:last-child{
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+
+    header nav ul li {
+        padding: 5px 0;
+        width: 100%;
+        transition: 0.3s all ease;
+    }
+    header nav ul li:hover{
+        background-color: #222;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header .menu-toggle {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero{
+        padding-bottom: 1rem;
+    }
+    main ol li {
+        flex-direction: column;
+    }
+
+    main ol{
+        margin: 0;
+    }
+    main ol li{
+        display: absolute;
+        padding-left: 8px;
+        padding-right: 12px;
+        padding-bottom: 0;
+        padding-top: 8px;
+    }
+    main ol li:hover{
+        padding-bottom: 0;
+        padding-left: 8px;
+        padding-right: 12px;
+        padding-top: 8px;
+    }
+    main ol li aside.right p{
+        -webkit-line-clamp: 3;
+    }
+    main ol li aside.right{
+        position: relative;
+        top: -130px;
+        margin-bottom: -130px;
+        margin-left: 70px;
+        padding: .75rem .5rem;
+        height: 110px;
+    }
+    
+    main ol li aside.left {
+        height: 100%;
+        width: 100%;
+
+        flex-direction: column-reverse;
+    }
+    main ol li aside.left .watched {
+        margin: auto 0;
+        height: 130px;
+        padding: 0;
+    }
+
+    main ol li aside.left div.image{
+        width: 100%;
+    }
+    main ol li aside.left div.image img {
+        width: 100%;    
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1.65;
+    }
+    main ol{
+        border-radius: .25rem;
+    }   
+    main ol>li:first-child{
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+    }
+    main ol>li:last-child{
+        border-bottom-left-radius: .25rem;
+        border-bottom-right-radius: .25rem;
+    }
+    
+}

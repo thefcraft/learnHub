@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Networks: Zero to Hero - LearnHub</title>
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
+    <link rel="stylesheet" href="/static/css/course.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="/">
+                    <img src="/static/img/icon.png" alt="LearnHub Logo">
+                </a>
+            </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#courses">Courses</a></li>
+                    <li><a href="https://blog.thefcraft.site/">Blog</a></li>
+                    <li><a href="https://github.com/thefcraft">Github</a></li>
+                    <li><a href="mailto:sisodiyalaksh@gmail.com?subject=Resource%20Suggestion%20for%20LearnHub.">Suggest</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="hero">
+        <section>
+            <nav>
+                <ol>
+                    <li><a href="/#courses">Courses</a></li>
+                    <li><a href="/#deep-learning">Deep Learning</a></li>
+                </ol>
+            </nav>
+        </section>
+        <section>
+            <h1>
+                Neural Networks: Zero to Hero
+            </h1>
+        </section>
+        <section>
+            <img src="https://i.ytimg.com/vi/VMj-3S1tku0/maxresdefault.jpg" alt="">
+        </section>
+        <section>
+            <span>
+                course description
+            </span>
+            <p>
+                A course by Andrej Karpathy on building neural networks, from scratch, in code.
+<br>We start with the basics of backpropagation and build up to modern deep neural networks, like GPT. In my opinion language models are an excellent place to learn deep learning, even if your intention is to eventually go to other areas like computer vision because most of what you learn will be immediately transferable. This is why we dive into and focus on languade models.
+<br>Prerequisites: solid programming (Python), intro-level math (e.g. derivative, gaussian).
+            </p>
+        </section>
+    </div>
+    <main>
+        <ol>
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-1" onclick="saveState(this.checked, 1)">
+                            <div>1.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&pp=iAQB`, 1)">
+                        <img src="https://i.ytimg.com/vi/VMj-3S1tku0/maxresdefault.jpg" alt="">
+                        <div class="playtime">2:25:52</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&pp=iAQB`, 1)">
+                    <h3>The spelled-out intro to neural networks and backpropagation: building micrograd</h3>
+                    <p>
+                        This is the most step-by-step spelled-out explanation of backpropagation and training of neural networks. It only assumes basic knowledge of Python and a vague recollection of calculus from high school.
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-2" onclick="saveState(this.checked, 2)">
+                            <div>2.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2&pp=iAQB`, 2)">
+                        <img src="https://i.ytimg.com/vi/PaCmpygFfXo/maxresdefault.jpg" alt="">
+                        <div class="playtime">1:57:45</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2&pp=iAQB`, 2)">
+                    <h3>The spelled-out intro to language modeling: building makemore</h3>
+                    <p>
+                        We implement a bigram character-level language model, which we will further complexify in followup videos into a modern Transformer language model, like GPT. In this video, the focus is on (1) introducing torch.Tensor and its subtleties and use in efficiently evaluating neural networks and (2) the overall framework of language modeling that includes model training, sampling, and the evaluation of a loss (e.g. the negative log likelihood for classification).
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-3" onclick="saveState(this.checked, 3)">
+                            <div>3.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=TCH_1BHY58I&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=3&pp=iAQB`, 3)">
+                        <img src="https://i.ytimg.com/vi/TCH_1BHY58I/maxresdefault.jpg" alt="">
+                        <div class="playtime">1:15:40</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=TCH_1BHY58I&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=3&pp=iAQB`, 3)">
+                    <h3>Building makemore Part 2: MLP</h3>
+                    <p>
+                        We implement a multilayer perceptron (MLP) character-level language model. In this video we also introduce many basics of machine learning (e.g. model training, learning rate tuning, hyperparameters, evaluation, train/dev/test splits, under/overfitting, etc.).
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-4" onclick="saveState(this.checked, 4)">
+                            <div>4.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=P6sfmUTpUmc&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=4&pp=iAQB`, 4)">
+                        <img src="https://i.ytimg.com/vi/P6sfmUTpUmc/maxresdefault.jpg" alt="">
+                        <div class="playtime">1:55:58</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=P6sfmUTpUmc&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=4&pp=iAQB`, 4)">
+                    <h3>Building makemore Part 3: Activations & Gradients, BatchNorm</h3>
+                    <p>
+                        We dive into some of the internals of MLPs with multiple layers and scrutinize the statistics of the forward pass activations, backward pass gradients, and some of the pitfalls when they are improperly scaled. We also look at the typical diagnostic tools and visualizations you'd want to use to understand the health of your deep network. We learn why training deep neural nets can be fragile and introduce the first modern innovation that made doing so much easier: Batch Normalization. Residual connections and the Adam optimizer remain notable todos for later video.
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-5" onclick="saveState(this.checked, 5)">
+                            <div>5.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=5&pp=iAQB`, 5)">
+                        <img src="https://i.ytimg.com/vi/q8SA3rM6ckI/maxresdefault.jpg" alt="">
+                        <div class="playtime">1:55:24</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=5&pp=iAQB`, 5)">
+                    <h3>Building makemore Part 4: Becoming a Backprop Ninja</h3>
+                    <p>
+                        We take the 2-layer MLP (with BatchNorm) from the previous video and backpropagate through it manually without using PyTorch autograd's loss.backward(): through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table. Along the way, we get a strong intuitive understanding about how gradients flow backwards through the compute graph and on the level of efficient Tensors, not just individual scalars like in micrograd. This helps build competence and intuition around how neural nets are optimized and sets you up to more confidently innovate on and debug modern neural networks.
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-6" onclick="saveState(this.checked, 6)">
+                            <div>6.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=t3YJ5hKiMQ0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=6&pp=iAQB`, 6)">
+                        <img src="https://i.ytimg.com/vi/t3YJ5hKiMQ0/maxresdefault.jpg" alt="">
+                        <div class="playtime">56:22</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=t3YJ5hKiMQ0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=6&pp=iAQB`, 6)">
+                    <h3>Building makemore Part 5: Building a WaveNet</h3>
+                    <p>
+                        We take the 2-layer MLP from previous video and make it deeper with a tree-like structure, arriving at a convolutional neural network architecture similar to the WaveNet (2016) from DeepMind. In the WaveNet paper, the same hierarchical architecture is implemented more efficiently using causal dilated convolutions (not yet covered). Along the way we get a better sense of torch.nn and what it is and how it works under the hood, and what a typical deep learning development process looks like (a lot of reading of documentation, keeping track of multidimensional tensor shapes, moving between jupyter notebooks and repository code, ...).
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-7" onclick="saveState(this.checked, 7)">
+                            <div>7.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=kCc8FmEb1nY&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=7&pp=iAQB`, 7)">
+                        <img src="https://i.ytimg.com/vi/kCc8FmEb1nY/maxresdefault.jpg" alt="">
+                        <div class="playtime">1:56:20</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=kCc8FmEb1nY&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=7&pp=iAQB`, 7)">
+                    <h3>Let's build GPT: from scratch, in code, spelled out.</h3>
+                    <p>
+                        We build a Generatively Pretrained Transformer (GPT), following the paper "Attention is All You Need" and OpenAI's GPT-2 / GPT-3. We talk about connections to ChatGPT, which has taken the world by storm. We watch GitHub Copilot, itself a GPT, help us write a GPT (meta :D!) . I recommend people watch the earlier makemore videos to get comfortable with the autoregressive language modeling framework and basics of tensors and PyTorch nn, which we take for granted in this video.
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-8" onclick="saveState(this.checked, 8)">
+                            <div>8.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=bZQun8Y4L2A&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=8&pp=iAQB`, 8)">
+                        <img src="https://i.ytimg.com/vi/bZQun8Y4L2A/maxresdefault.jpg" alt="">
+                        <div class="playtime">42:40</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=bZQun8Y4L2A&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=8&pp=iAQB`, 8)">
+                    <h3>State of GPT | BRK216HFS</h3>
+                    <p>
+                        Learn about the training pipeline of GPT assistants like ChatGPT, from tokenization to pretraining, supervised finetuning, and Reinforcement Learning from Human Feedback (RLHF). Dive deeper into practical techniques and mental models for the effective use of these models, including prompting strategies, finetuning, the rapidly growing ecosystem of tools, and their future extensions.
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-9" onclick="saveState(this.checked, 9)">
+                            <div>9.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=zduSFxRajkE&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=9&pp=iAQB`, 9)">
+                        <img src="https://i.ytimg.com/vi/zduSFxRajkE/maxresdefault.jpg" alt="">
+                        <div class="playtime">2:13:35</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=zduSFxRajkE&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=9&pp=iAQB`, 9)">
+                    <h3>Let's build the GPT Tokenizer</h3>
+                    <p>
+                        The Tokenizer is a necessary and pervasive component of Large Language Models (LLMs), where it translates between strings and tokens (text chunks). Tokenizers are a completely separate stage of the LLM pipeline: they have their own training sets, training algorithms (Byte Pair Encoding), and after training implement two fundamental functions: encode() from strings to tokens, and decode() back from tokens to strings. In this lecture we build from scratch the Tokenizer used in the GPT series from OpenAI. In the process, we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization. We'll go through a number of these issues, discuss why tokenization is at fault, and why someone out there ideally finds a way to delete this stage entirely.
+                    </p>
+                </aside>
+            </li>
+        
+            <li>
+                <aside class="left">
+                    <div class="watched">
+                        <label>
+                            <input type="checkbox" name="" id="checkbox-10" onclick="saveState(this.checked, 10)">
+                            <div>10.</div>
+                        </label>
+                    </div>
+                    <div class="image" onclick="redirect(`https://www.youtube.com/watch?v=l8pRSuU81PU&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=10&pp=iAQB`, 10)">
+                        <img src="https://i.ytimg.com/vi/l8pRSuU81PU/maxresdefault.jpg" alt="">
+                        <div class="playtime">4:01:26</div>
+                    </div>
+                </aside>
+                <aside class="right" onclick="redirect(`https://www.youtube.com/watch?v=l8pRSuU81PU&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=10&pp=iAQB`, 10)">
+                    <h3>Let's reproduce GPT-2 (124M)</h3>
+                    <p>
+                        We reproduce the GPT-2 (124M) from scratch. This video covers the whole process: First we build the GPT-2 network, then we optimize its training to be really fast, then we set up the training run following the GPT-2 and GPT-3 paper and their hyperparameters, then we hit run, and come back the next morning to see our results, and enjoy some amusing model generations. Keep in mind that in some places this video builds on the knowledge from earlier videos in the Zero to Hero Playlist (see my channel). You could also see this video as building my nanoGPT repo, which by the end is about 90% similar.
+                    </p>
+                </aside>
+            </li>
+        </ol>
+    </main>
+        
+    <footer>
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+    </footer>  
+    
+    <script src="/static/script/course.js"></script>
+</body>
+</html>

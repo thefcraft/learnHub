@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Explore and Discover Courses</title>
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
+    <link rel="stylesheet" href="/static/css/home.css">
+</head>
+<body>
+    <header>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/">
+                        <img src="/static/img/icon.png" alt="LearnHub Logo">
+                    </a>
+                </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="https://blog.thefcraft.site/">Blog</a></li>
+                    <li><a href="https://github.com/thefcraft">Github</a></li>
+                    <li><a href="mailto:sisodiyalaksh@gmail.com?subject=Resource%20Suggestion%20for%20LearnHub.">Suggest</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="hero">
+        <h2>Welcome to LearnHub!</h2>
+        <p>Your one-stop destination for top-notch courses across various fields. Start learning today with our comprehensive and free resources!</p>
+    </div>
+    <div class="container" id="courses">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for courses...">
+        </div>
+        <div class="filter">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="dl">Deep Learning</option>
+                <option value="ml">Meachine Learning</option>
+                <option value="data-science">Data Science</option>
+                <option value="web-dev">Web Development</option>
+                <option value="cybersecurity">Cybersecurity</option>
+                <option value="rust-lang">Rust Programming</option>
+                <option value="cuda-lang">Rust Programming</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+        
+        <!-- Deep Learning -->
+        <div class="category" data-category="dl" id="deep-learning">
+            <h2><img src="https://img.icons8.com/?size=100&id=u5cBN2YgFqn5&format=png&color=000000" class="category-icon" alt="DL">Deep Learning</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="dl-count">6</span></p>
+            </div>
+            <div class="course-grid" id="dl-courses">
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/VMj-3S1tku0/maxresdefault.jpg" alt="Neural Networks: Zero to Hero">
+                        <div class="videosCount">10 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/neural-networks-zero-to-hero-by-andrej-karpathy/">Neural Networks: Zero to Hero</a></h3>
+                        <p>A comprehensive course on building neural networks from scratch. Learn about backpropagation and modern deep learning techniques.</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Andrej Karpathy</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/2dH_qjc9mFg/maxresdefault.jpg" alt="100 Days of Deep Learning">
+                        <div class="videosCount">81 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/100-days-of-deep-learning-by-nitish-campusx/">100 Days of Deep Learning</a></h3>
+                        <p>A complete end-to-end playlist on Deep Learning where topics like ANN, CNN, and RNN are covered.</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Nitish CampusX</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/zxagGtF9MeU/maxresdefault.jpg" alt="Neural Networks / Deep Learning">
+                        <div class="videosCount">29 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/neural-networks-deep-learning-by-josh-starmer/">Neural Networks / Deep Learning</a></h3>
+                        <p>This playlist has everything you need to know about Neural Networks, from the basics to the state of the art with Transformers, the foundation of ChatGPT.</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Josh Starmer</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/2S1dgHpqCdk/maxresdefault.jpg" alt="PyTorch Tutorials">
+                        <div class="videosCount">54 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/pytorch-tutorials-by-aladdin-persson/">PyTorch Tutorials</a></h3>
+                        <p>Welcome to PyTorch Tutorials that go deeper than just the basics. This is forming to become quite a huge playlist so here are some thoughts on how to efficiently navigate it. The initial videos are more introductory to the library and if you're completely new I recommend you start with those. Just a note, the initial videos are the first videos I created and the quality has improved a lot since then. After you've learned the basics of PyTorch I recommend you to learn about what you find interesting. If you find Computer vision interesting check out architecture implementations, object detection videos, GANs etc. Or if you're curious about NLP then you could check out the Seq2Seq series on machine translation. In summary try to find something you're interested in and then use the videos as a resource if you want more context or get stuck on a specific problem. With time I will cover more areas, and the resource will grow</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Aladdin Persson</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/EMXfZB8FVUA/maxresdefault.jpg" alt="PyTorch Tutorials - Complete Beginner Course">
+                        <div class="videosCount">22 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/pytorch-tutorials-complete-beginner-course-by-patrick-loeber/">PyTorch Tutorials - Complete Beginner Course</a></h3>
+                        <p>A Beginner of PyTorch by Patrick Loeber</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Patrick Loeber</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/VTE2KlfoO3Q/maxresdefault.jpg" alt="Neural Networks and Deep Learning">
+                        <div class="videosCount">43 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/neural-networks-and-deep-learning-by-andrew-ng/">Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)</a></h3>
+                        <p>A Beginner of PyTorch by Andrew Ng</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Andrew Ng</span>
+                        </section>
+                    </div>
+                </div>
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="dl-courses-view-more">View More</button>
+            </div>
+        </div>
+        
+
+        <!-- Machine Intelligence -->
+        <div class="category" data-category="ml" id="machine-learning">
+            <h2><img src="https://img.icons8.com/?size=100&id=z3YMXqHDYl9X&format=png&color=000000" class="category-icon" alt="ML">Machine Learning</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="ml-count">5</span></p>
+            </div>
+            <div class="course-grid" id="ml-courses">
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/gmvvaobm7eQ/maxresdefault.jpg" alt="Machine Learning For Beginners">
+                        <div class="videosCount">42 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/machine-learning-for-beginners-by-codebasics/">Machine Learning For Beginners</a></h3>
+                        <p>
+                            In this video series, we are going to learn about machine learning with Python. There are activities where computers are better than humans, and some activities where humans are better than computers. In simple words, machine learning is the technique that makes computers better at things than humans. It’s about making machines learn the things humans do.
+Machine learning is a bigger area, of which deep learning and mathematical models are important parts. One might think about why it is important to learn machine learning? It is because it has a big implication in real life too. Spam filtering in emails, voice assistance devices, online video or music streaming recommendations, are a few of the real-life applications of machine learning which are already available to us. However, the best use of this feature can be expected in the near-decade in the form of driverless cars. Go through this machine learning playlist to understand these concepts more easily.
+This machine learning tutorials playlist includes linear regression, gradient descent, logistic regression, decision tree, support vector, K-fold cross-validation, KNN classification, etc. The playlist also includes several practical implication projects which will help you get a more clear understanding of the concept. Another topic included in this machine learning course is Feature Engineering, which is an important part of data analytics and machine learning.
+                        </p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Codebasics</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/Gv9_4yMHFhI/maxresdefault.jpg" alt="Machine Learning">
+                        <div class="videosCount">99 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/machine-learning-by-josh-starmer/">Machine Learning</a></h3>
+                        <p>
+                            Machine Learning by Josh Starmer
+                        </p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Josh Starmer</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/ZftI2fEz0Fw/hqdefault.jpg" alt="100 Days of Machine Learning">
+                        <div class="videosCount">132 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/100-days-of-machine-learning-by-nitish-campusx/">100 Days of Machine Learning</a></h3>
+                        <p>
+                            Machine Learning by Nitish CampusX
+                        </p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Nitish CampusX</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/bY__YW-xknU/maxresdefault.jpg" alt="Machine Learning Course With Python">
+                        <div class="videosCount">136 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/machine-learning-course-with-python-by-siddhardhan/">Machine Learning Course With Python</a></h3>
+                        <p>
+                            Machine Learning Course With Python 
+                        </p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Siddhardhan</span>
+                        </section>
+                    </div>
+                </div>
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/vStJoetOxJg/maxresdefault.jpg" alt="Machine Learning Specialization by Andrew Ng">
+                        <div class="videosCount">41 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/machine-learning-specialization-by-andrew-ng/">Machine Learning Specialization by Andrew Ng</a></h3>
+                        <p>
+                            Machine Learning Specialization by Andrew Ng
+                        </p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Andrew Ng</span>
+                        </section>
+                    </div>
+                </div>
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="ml-courses-view-more">View More</button>
+            </div>
+        </div>
+
+        <!-- Data Science -->
+        <div class="category" data-category="data-science">
+            <h2><img src="https://img.icons8.com/?size=100&id=Yxg2sJ9DAMK8&format=png&color=000000" class="category-icon" alt="Data Science">Data Science</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="data-science-count">0</span></p>
+            </div>
+            <div class="course-grid" id="data-science-courses">
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="data-science-courses-view-more">View More</button>
+            </div>
+        </div>   
+
+        <!-- Web Development -->
+        <div class="category" data-category="web-dev">
+            <h2><img src="https://img.icons8.com/ios-filled/50/000000/web.png" class="category-icon" alt="Web Development">Web Development</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="web-dev-count">0</span></p>
+            </div>
+            <div class="course-grid" id="web-dev-courses">
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="web-dev-courses-view-more">View More</button>
+            </div>
+        </div>
+
+        <!-- Cybersecurity -->
+        <div class="category" data-category="cybersecurity">
+            <h2><img src="https://img.icons8.com/?size=100&id=wYZphVpCWsq5&format=png&color=000000" class="category-icon" alt="Cybersecurity">Cybersecurity</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="cybersecurity-count">0</span></p>
+            </div>
+            <div class="course-grid" id="cybersecurity-courses">
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="cybersecurity-courses-view-more">View More</button>
+            </div>
+        </div>
+
+        <!-- Rust Programming -->
+        <div class="category" data-category="rust-lang">
+            <h2><img src="https://img.icons8.com/?size=100&id=XWesbnSd4AUa&format=png&color=000000" class="category-icon" alt="Rust Programming">Rust Programming</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="rust-lang-count">0</span></p>
+            </div>
+            <div class="course-grid" id="rust-lang-courses">
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="rust-lang-courses-view-more">View More</button>
+            </div>
+        </div>
+
+        <!-- Cuda Programming -->
+        <div class="category" data-category="cuda-lang">
+            <h2><img src="https://img.icons8.com/?size=100&id=SDDUyPtXiQRf&format=png&color=000000" class="category-icon" alt="Cuda Programming">Cuda Programming</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="cuda-lang-count">0</span></p>
+            </div>
+            <div class="course-grid" id="cuda-lang-courses">
+                <!-- Additional course items... -->
+            </div>
+            <div class="view-more">
+                <button id="cuda-lang-courses-view-more">View More</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+    
+    <footer>
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+    </footer>     
+
+    <script src="/static/script/home.js"></script>
+</body>
+</html>
