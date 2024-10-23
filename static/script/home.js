@@ -92,6 +92,8 @@ toggleViewMore('dl-courses');
 toggleViewMore('ml-courses');
 toggleViewMore('web-dev-courses');
 toggleViewMore('data-science-courses');
+toggleViewMore('reinforcement-learning-courses');
+toggleViewMore('chill-baby-courses');
 document.querySelectorAll('.category').forEach(function(category) {
     const count = category.querySelectorAll('.course-item').length;
     category.querySelector('.total-count span').textContent = count;
