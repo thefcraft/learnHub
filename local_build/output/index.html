@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Explore and Discover Courses</title>
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
+    <link rel="stylesheet" href="/static/css/home.css">
+    
+<style>
+    
+    .author { background: #e314b3; }
+    
+    .playlist { background: #ff5722; }
+    
+    .blog { background: #4caf50; }
+    
+    .github { background: #333; }
+    
+    .channel { background: #4d0cd0; }
+    
+    .video { background: #d3ab08; }
+    
+</style>
+
+</head>
+<body>
+    <header>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/">
+                        <img src="/static/img/icon.png" alt="LearnHub Logo">
+                    </a>
+                </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="https://blog.thefcraft.site/">Blog</a></li>
+                    <li><a href="https://github.com/thefcraft">Github</a></li>
+                    <li><a href="mailto:sisodiyalaksh@gmail.com?subject=Resource%20Suggestion%20for%20LearnHub.">Suggest</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="hero">
+        <h2>Welcome to LearnHub!</h2>
+        <p>Your one-stop destination for top-notch courses across various fields. Start learning today with our comprehensive and free resources!</p>
+    </div>
+    <div class="container" id="courses">
+        
+        
+
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for courses...">
+        </div>
+        <div class="filter">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                
+                <option value="deep-learning">Deep Learning</option>
+                
+            </select>
+        </div>
+
+    
+        <div class="category" data-category="deep-learning" id="category-id-deep-learning">
+            <h2><img src="https://img.icons8.com/?size=100&id=u5cBN2YgFqn5&format=png&color=000000" class="category-icon" alt="Deep Learning">Deep Learning</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="deep-learning-count">15</span></p>
+            </div>
+            <div class="course-grid" id="deep-learning-courses">
+                
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/VMj-3S1tku0/maxresdefault.jpg" alt="Neural Networks: Zero to Hero">
+                        <div class="videosCount">10 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/neural-networks-zero-to-hero-by-andrej-karpathy/">Neural Networks: Zero to Hero</a></h3>
+                        <p>A comprehensive course on building neural networks from scratch. Learn about backpropagation and modern deep learning techniques.</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Andrej Karpathy</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/2dH_qjc9mFg/maxresdefault.jpg" alt="100 Days of Deep Learning">
+                        <div class="videosCount">81 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/100-days-of-deep-learning-by-nitish-campusx/">100 Days of Deep Learning</a></h3>
+                        <p>A complete end-to-end playlist on Deep Learning where topics like ANN, CNN, and RNN are covered.</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Nitish CampusX</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/zxagGtF9MeU/maxresdefault.jpg" alt="Neural Networks / Deep Learning">
+                        <div class="videosCount">29 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/neural-networks-deep-learning-by-josh-starmer/">Neural Networks / Deep Learning</a></h3>
+                        <p>This playlist has everything you need to know about Neural Networks, from the basics to the state of the art with Transformers, the foundation of ChatGPT.</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Josh Starmer</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/2S1dgHpqCdk/maxresdefault.jpg" alt="PyTorch Tutorials">
+                        <div class="videosCount">54 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/pytorch-tutorials-by-aladdin-persson/">PyTorch Tutorials</a></h3>
+                        <p>Welcome to PyTorch Tutorials that go deeper than just the basics. This is forming to become quite a huge playlist so here are some thoughts on how to efficiently navigate it. The initial videos are more introductory to the library and if you're completely new I recommend you start with those. Just a note, the initial videos are the first videos I created and the quality has improved a lot since then. After you've learned the basics of PyTorch I recommend you to learn about what you find interesting. If you find Computer vision interesting check out architecture implementations, object detection videos, GANs etc. Or if you're curious about NLP then you could check out the Seq2Seq series on machine translation. In summary try to find something you're interested in and then use the videos as a resource if you want more context or get stuck on a specific problem. With time I will cover more areas, and the resource will grow</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Aladdin Persson</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/UiX8K-xBUpE/maxresdefault.jpg" alt="Umarjamilai Youtube">
+                        <div class="videosCount">22 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@umarjamilai/videos">Umarjamilai Youtube</a></h3>
+                        <p>I'm a Machine Learning Engineer from Milan, Italy, teaching complex deep learning and machine learning concepts to my cat, 奥利奥.
+                            我也会一点中文.</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>Umarjamilai</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/EMXfZB8FVUA/maxresdefault.jpg" alt="PyTorch Tutorials - Complete Beginner Course">
+                        <div class="videosCount">22 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/pytorch-tutorials-complete-beginner-course-by-patrick-loeber/">PyTorch Tutorials - Complete Beginner Course</a></h3>
+                        <p>A Beginner of PyTorch by Patrick Loeber</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Patrick Loeber</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/VTE2KlfoO3Q/maxresdefault.jpg" alt="Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)">
+                        <div class="videosCount">43 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="/courses/neural-networks-and-deep-learning-by-andrew-ng/">Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)</a></h3>
+                        <p>A Beginner of PyTorch by Andrew Ng</p>
+                        <section class="tag">
+                            <span class="playlist">playlist</span>
+                            <span class="author"><b><i>Author: </i></b>Andrew Ng</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/HdT8G5S3IAc/maxresdefault.jpg" alt="Two Minute Papers Youtube">
+                        <div class="videosCount">906 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@TwoMinutePapers/videos">Two Minute Papers Youtube</a></h3>
+                        <p>What a time to be alive!</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>KÃ¡roly Zsolnai</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/nu9lBnyRjos/maxresdefault.jpg" alt="Tunadorable Youtube">
+                        <div class="videosCount">327 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@Tunadorable/videos">Tunadorable Youtube</a></h3>
+                        <p>Oi! I am become change, confuser of subscribers</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>Tunadorable</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/80bIUggRJf4/maxresdefault.jpg" alt="EfficientNLP Youtube">
+                        <div class="videosCount">18 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@EfficientNLP/videos">EfficientNLP Youtube</a></h3>
+                        <p>My name is Bai Li, I'm a machine learning engineer and PhD in natural language processing.</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>Bai Li</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/Wt3Oicmy9VA/maxresdefault.jpg" alt="Machine Learning TV Youtube">
+                        <div class="videosCount">138 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@MachineLearningTV/videos">Machine Learning TV Youtube</a></h3>
+                        <p>This channel is all about machine learning (ML). It contains all the useful resources which help ML lovers and computer science students gain a better understanding of the concepts of this successful branch of Artificial Intelligence.</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>ML TV</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/ip2HYPC_T9Q/maxresdefault.jpg" alt="Deepia Youtube">
+                        <div class="videosCount">6 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@Deepia-ls2fo/videos">Deepia Youtube</a></h3>
+                        <p>Welcome to Deepia, where I animate deep learning concepts with Manim.</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>Deepia</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/UjdRN80c6p8/maxresdefault.jpg" alt="Vizuara Youtube">
+                        <div class="videosCount">368 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@vizuara/videos">Vizuara Youtube</a></h3>
+                        <p>We are team Vizuara, a fast-growing Indian startup backed by MIT, that is revolutionizing AI education (www.vizuara.ai). Vizuara is founded by alumni from IIT Madras, MIT, and Purdue University.</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>Vizuara</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/WwbukAcMM4k/maxresdefault.jpg" alt="Yannic Kilcher">
+                        <div class="videosCount">468 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@vizuara/videos">Yannic Kilcher</a></h3>
+                        <p>I make videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>Yannic Kilcher</span>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/KRTEOkYftUY/maxresdefault.jpg" alt="Neural Breakdown with AVB">
+                        <div class="videosCount">39 videos</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="https://www.youtube.com/@avb_fj/videos">Neural Breakdown with AVB</a></h3>
+                        <p>AI, Deep Learning, Machine Learning</p>
+                        <section class="tag">
+                            <span class="channel">channel</span>
+                            <span class="author"><b><i>Author: </i></b>AVB</span>
+                        </section>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="view-more">
+                <button id="deep-learning-courses-view-more">View More</button>
+            </div>
+        </div>
+    
+    
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+    </footer>     
+
+    <script src="/static/script/home.js"></script>
+    
+
+    <script type="text/javascript">
+        // Initialize view more functionality
+        
+        toggleViewMore('deep-learning-courses');
+        
+        document.querySelectorAll('.category').forEach(function(category) {
+            const count = category.querySelectorAll('.course-item').length;
+            category.querySelector('.total-count span').textContent = count;
+            const viewMoreButton = category.querySelector('.view-more button');
+            viewMoreButton.disabled = count <= 4;
+        });
+
+    </script>
+
+
+
+</body>
+</html>

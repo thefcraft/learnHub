@@ -1,0 +1,107 @@
+{
+    "key": "reinforcement-learning",
+    "name": "Reinforcement Learning",
+    "icon": "/static/img/rl.png",
+    "courses": [
+        {
+            "name": "Reinforcement Learning Made Simple",
+            "desc": "Reinforcement Learning Made Simple By Edan Meyer",
+            "tag": "playlist",
+            "image_text": "5 videos",
+            "author": "Edan Meyer",
+            "href": "https://www.youtube.com/playlist?list=PL_49VD9KwQ_OML1Knh-Yb7FUFkhTLS0jL",
+            "icon": "https://i.ytimg.com/vi/1OI0uuz9jkI/maxresdefault.jpg"
+        },
+        {
+            "name": "Q-Learning Tutorials",
+            "desc": "Q-Learning Tutorials By Edan Meyer",
+            "tag": "playlist",
+            "image_text": "8 videos",
+            "author": "Edan Meyer",
+            "href": "https://www.youtube.com/playlist?list=PL_49VD9KwQ_OpleGtJhWD24JDrrmXYXEQ",
+            "icon": "https://i.ytimg.com/vi/RiSCh4H-GY4/maxresdefault.jpg"
+        },
+        {
+            "name": "Reinforcement Learning By the Book",
+            "desc": "Reinforcement Learning By the Book By Mutual Information",
+            "tag": "playlist",
+            "image_text": "6 videos",
+            "author": "Mutual Info.",
+            "href": "https://www.youtube.com/playlist?list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr",
+            "icon": "https://i.ytimg.com/vi/NFo9v_yKQXA/maxresdefault.jpg"
+        },
+        {
+            "name": "Reinforcement Learning Course: Intro to Advanced Actor Critic Methods",
+            "desc": "Reinforcement Learning Course: Intro to Advanced Actor Critic Methods By Machine Learning with Phil",
+            "tag": "video",
+            "image_text": "5:54:32",
+            "author": "freeCodeCamp",
+            "href": "https://www.youtube.com/watch?v=K2qjAixgLqk",
+            "icon": "https://i.ytimg.com/vi/K2qjAixgLqk/hq720.jpg"
+        },
+        {
+            "name": "Reinforcement Learning 101",
+            "desc": "Reinforcement Learning 101 By CodeEmporium",
+            "tag": "playlist",
+            "image_text": "11 videos",
+            "author": "CodeEmporium",
+            "href": "https://www.youtube.com/playlist?list=PLTl9hO2Oobd9kS--NgVz0EPNyEmygV1Ha",
+            "icon": "https://i.ytimg.com/vi/dCelRItdGfc/maxresdefault.jpg"
+        },
+        {
+            "name": "Reinforcement Learning with Python",
+            "desc": "Reinforcement Learning with Python By Nicholas Renotte",
+            "tag": "playlist",
+            "image_text": "8 videos",
+            "author": "Nicholas Renotte",
+            "href": "https://www.youtube.com/playlist?list=PLgNJO2hghbmjlE6cuKMws2ejC54BTAaWV",
+            "icon": "https://i.ytimg.com/vi/pvPc7tQkVA8/maxresdefault.jpg"
+        },
+        {
+            "name": "DeepMind x UCL | Introduction to Reinforcement Learning 2015",
+            "desc": "Watch the lectures from DeepMind research lead David Silver's course on reinforcement learning, taught at University College London.",
+            "tag": "playlist",
+            "image_text": "10 videos",
+            "author": "DeepMind",
+            "href": "https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ",
+            "icon": "https://i.ytimg.com/vi/2pWv7GOvuf0/maxresdefault.jpg"
+        },
+        {
+            "name": "Reinforcement Learning",
+            "desc": "Reinforcement Learning By sentdex",
+            "tag": "playlist",
+            "image_text": "6 videos",
+            "author": "sentdex",
+            "href": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDezJFIOU5wDdfy4e9vdnx-7",
+            "icon": "https://i.ytimg.com/vi/yMk_XtIEzH8/maxresdefault.jpg"
+        },
+        {
+            "name": "Mahesh Huddar Youtube",
+            "desc": "Mahesh Huddar channel provides Tutorials on many Computer Science and Engineering Subjects Like: Artificial Intelligence, Soft Computing, Machine Learning, etc",
+            "tag": "channel",
+            "image_text": "742 videos",
+            "author": "Mahesh",
+            "href": "https://www.youtube.com/@MaheshHuddar/videos",
+            "icon": "https://i.ytimg.com/vi/fCSvGlhl7sA/maxresdefault.jpg"
+        },
+        {
+            "name": "Serrano.Academy Youtube",
+            "desc": "Welcome to Serrano.Academy! I'm Luis Serrano and I love demystifying concepts, capturing their essence, and sharing these videos with you. I prefer illustrations, analogies, and cartoons, rather than formulas (although we don't shy away from the math when needed).",
+            "tag": "channel",
+            "image_text": "58 videos",
+            "author": "Serrano",
+            "href": "https://www.youtube.com/@SerranoAcademy/videos",
+            "icon": "https://i.ytimg.com/vi/Z_JUqJBpVOk/maxresdefault.jpg"
+        },
+        {
+            "name": "Reinforcement Learning",
+            "desc": "Reinforcement Learning Papers By Yannic Kilcher",
+            "tag": "playlist",
+            "image_text": "66 videos",
+            "author": "Yannic Kilcher",
+            "href": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDezJFIOU5wDdfy4e9vdnx-7",
+            "icon": "https://i.ytimg.com/vi/-YiMVR3HEuY/maxresdefault.jpg"
+        }
+    ],
+    "index": 2
+}

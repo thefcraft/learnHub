@@ -1,0 +1,89 @@
+{
+    "key": "machine-learning",
+    "name": "Machine Learning",
+    "icon": "https://img.icons8.com/?size=100&id=z3YMXqHDYl9X&format=png&color=000000",
+    "courses": [
+        {
+            "name": "Machine Learning For Beginners",
+            "desc": "In this video series, we are going to learn about machine learning with Python. There are activities where computers are better than humans, and some activities where humans are better than computers. In simple words, machine learning is the technique that makes computers better at things than humans. It\u2019s about making machines learn the things humans do.\nMachine learning is a bigger area, of which deep learning and mathematical models are important parts. One might think about why it is important to learn machine learning? It is because it has a big implication in real life too. Spam filtering in emails, voice assistance devices, online video or music streaming recommendations, are a few of the real-life applications of machine learning which are already available to us. However, the best use of this feature can be expected in the near-decade in the form of driverless cars. Go through this machine learning playlist to understand these concepts more easily.\nThis machine learning tutorials playlist includes linear regression, gradient descent, logistic regression, decision tree, support vector, K-fold cross-validation, KNN classification, etc. The playlist also includes several practical implication projects which will help you get a more clear understanding of the concept. Another topic included in this machine learning course is Feature Engineering, which is an important part of data analytics and machine learning.",
+            "tag": "playlist",
+            "image_text": "42 videos",
+            "author": "Codebasics",
+            "href": "/courses/machine-learning-for-beginners-by-codebasics/",
+            "icon": "https://i.ytimg.com/vi/gmvvaobm7eQ/maxresdefault.jpg"
+        },
+        {
+            "name": "Machine Learning",
+            "desc": "Machine Learning by Josh Starmer",
+            "tag": "playlist",
+            "image_text": "99 videos",
+            "author": "Josh Starmer",
+            "href": "/courses/machine-learning-by-josh-starmer/",
+            "icon": "https://i.ytimg.com/vi/Gv9_4yMHFhI/maxresdefault.jpg"
+        },
+        {
+            "name": "100 Days of Machine Learning",
+            "desc": "Machine Learning by Nitish CampusX",
+            "tag": "playlist",
+            "image_text": "132 videos",
+            "author": "Nitish CampusX",
+            "href": "/courses/100-days-of-machine-learning-by-nitish-campusx/",
+            "icon": "https://i.ytimg.com/vi/ZftI2fEz0Fw/hqdefault.jpg"
+        },
+        {
+            "name": "Machine Learning Course With Python",
+            "desc": "Machine Learning Course With Python",
+            "tag": "playlist",
+            "image_text": "136 videos",
+            "author": "Siddhardhan",
+            "href": "/courses/machine-learning-course-with-python-by-siddhardhan/",
+            "icon": "https://i.ytimg.com/vi/bY__YW-xknU/maxresdefault.jpg"
+        },
+        {
+            "name": "Machine Learning Specialization by Andrew Ng",
+            "desc": "Machine Learning Specialization by Andrew Ng",
+            "tag": "playlist",
+            "image_text": "41 videos",
+            "author": "Andrew Ng",
+            "href": "/courses/machine-learning-specialization-by-andrew-ng/",
+            "icon": "https://i.ytimg.com/vi/vStJoetOxJg/maxresdefault.jpg"
+        },
+        {
+            "name": "Machine Learning Classes (Carnegie Mellon University)",
+            "desc": "Machine Learning Classes (Carnegie Mellon University) by Tom Mitchell",
+            "tag": "playlist",
+            "image_text": "11 videos",
+            "author": "Tom Mitchell",
+            "href": "https://www.youtube.com/playlist?list=PLIG2x2RJ_4LROtn9mTZ6rkBln842hE7ty",
+            "icon": "https://i.ytimg.com/vi/OMRlnKupsXM/hqdefault.jpg"
+        },
+        {
+            "name": "290+ Machine Learning Projects with Python",
+            "desc": "290+ Machine Learning Projects Solved & Explained using Python programming language.",
+            "tag": "blog",
+            "image_text": "6min read",
+            "author": "Aman Kharwal",
+            "href": "https://medium.com/coders-camp/230-machine-learning-projects-with-python-5d0c7abf8265",
+            "icon": "https://miro.medium.com/v2/resize:fit:1050/1*5gMqyOnOrj7gpeggRJaFww.png"
+        },
+        {
+            "name": "ML Algorithms Clearly Explained",
+            "desc": "In this series of videos, I have explained basic machine learning algorithms and how you can implement them in python without any libraries!",
+            "tag": "playlist",
+            "image_text": "14 videos",
+            "author": "Sujan Dutta",
+            "href": "https://www.youtube.com/playlist?list=PLM8wYQRetTxAIU0oOarQeW2WOeYV9LyuG",
+            "icon": "https://i.ytimg.com/vi/sgQAhG5Q7iY/maxresdefault.jpg"
+        },
+        {
+            "name": "Machine Learning",
+            "desc": "Machine Learning By Mahesh Huddar",
+            "tag": "playlist",
+            "image_text": "264 videos",
+            "author": "Mahesh Huddar",
+            "href": "https://www.youtube.com/playlist?list=PL4gu8xQu0_5JBO1FKRO5p20wc8DprlOgn",
+            "icon": "https://i.ytimg.com/vi/jfSuQCs3bSs/maxresdefault.jpg"
+        }
+    ],
+    "index": 1
+}

@@ -1,0 +1,143 @@
+{
+    "key": "deep-learning",
+    "name": "Deep Learning",
+    "icon": "https://img.icons8.com/?size=100&id=u5cBN2YgFqn5&format=png&color=000000",
+    "courses": [
+        {
+            "name": "Neural Networks: Zero to Hero",
+            "desc": "A comprehensive course on building neural networks from scratch. Learn about backpropagation and modern deep learning techniques.",
+            "tag": "playlist",
+            "image_text": "10 videos",
+            "author": "Andrej Karpathy",
+            "href": "/courses/neural-networks-zero-to-hero-by-andrej-karpathy/",
+            "icon": "https://i.ytimg.com/vi/VMj-3S1tku0/maxresdefault.jpg"
+        },
+        {
+            "name": "100 Days of Deep Learning",
+            "desc": "A complete end-to-end playlist on Deep Learning where topics like ANN, CNN, and RNN are covered.",
+            "tag": "playlist",
+            "image_text": "81 videos",
+            "author": "Nitish CampusX",
+            "href": "/courses/100-days-of-deep-learning-by-nitish-campusx/",
+            "icon": "https://i.ytimg.com/vi/2dH_qjc9mFg/maxresdefault.jpg"
+        },
+        {
+            "name": "Neural Networks / Deep Learning",
+            "desc": "This playlist has everything you need to know about Neural Networks, from the basics to the state of the art with Transformers, the foundation of ChatGPT.",
+            "tag": "playlist",
+            "image_text": "29 videos",
+            "author": "Josh Starmer",
+            "href": "/courses/neural-networks-deep-learning-by-josh-starmer/",
+            "icon": "https://i.ytimg.com/vi/zxagGtF9MeU/maxresdefault.jpg"
+        },
+        {
+            "name": "PyTorch Tutorials",
+            "desc": "Welcome to PyTorch Tutorials that go deeper than just the basics. This is forming to become quite a huge playlist so here are some thoughts on how to efficiently navigate it. The initial videos are more introductory to the library and if you're completely new I recommend you start with those. Just a note, the initial videos are the first videos I created and the quality has improved a lot since then. After you've learned the basics of PyTorch I recommend you to learn about what you find interesting. If you find Computer vision interesting check out architecture implementations, object detection videos, GANs etc. Or if you're curious about NLP then you could check out the Seq2Seq series on machine translation. In summary try to find something you're interested in and then use the videos as a resource if you want more context or get stuck on a specific problem. With time I will cover more areas, and the resource will grow",
+            "tag": "playlist",
+            "image_text": "54 videos",
+            "author": "Aladdin Persson",
+            "href": "/courses/pytorch-tutorials-by-aladdin-persson/",
+            "icon": "https://i.ytimg.com/vi/2S1dgHpqCdk/maxresdefault.jpg"
+        },
+        {
+            "name": "Umarjamilai Youtube",
+            "desc": "I'm a Machine Learning Engineer from Milan, Italy, teaching complex deep learning and machine learning concepts to my cat, \u5965\u5229\u5965.\n                            \u6211\u4e5f\u4f1a\u4e00\u70b9\u4e2d\u6587.",
+            "tag": "channel",
+            "image_text": "22 videos",
+            "author": "Umarjamilai",
+            "href": "https://www.youtube.com/@umarjamilai/videos",
+            "icon": "https://i.ytimg.com/vi/UiX8K-xBUpE/maxresdefault.jpg"
+        },
+        {
+            "name": "PyTorch Tutorials - Complete Beginner Course",
+            "desc": "A Beginner of PyTorch by Patrick Loeber",
+            "tag": "playlist",
+            "image_text": "22 videos",
+            "author": "Patrick Loeber",
+            "href": "/courses/pytorch-tutorials-complete-beginner-course-by-patrick-loeber/",
+            "icon": "https://i.ytimg.com/vi/EMXfZB8FVUA/maxresdefault.jpg"
+        },
+        {
+            "name": "Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)",
+            "desc": "A Beginner of PyTorch by Andrew Ng",
+            "tag": "playlist",
+            "image_text": "43 videos",
+            "author": "Andrew Ng",
+            "href": "/courses/neural-networks-and-deep-learning-by-andrew-ng/",
+            "icon": "https://i.ytimg.com/vi/VTE2KlfoO3Q/maxresdefault.jpg"
+        },
+        {
+            "name": "Two Minute Papers Youtube",
+            "desc": "What a time to be alive!",
+            "tag": "channel",
+            "image_text": "906 videos",
+            "author": "Károly Zsolnai",
+            "href": "https://www.youtube.com/@TwoMinutePapers/videos",
+            "icon": "https://i.ytimg.com/vi/HdT8G5S3IAc/maxresdefault.jpg"
+        },
+        {
+            "name": "Tunadorable Youtube",
+            "desc": "Oi! I am become change, confuser of subscribers",
+            "tag": "channel",
+            "image_text": "327 videos",
+            "author": "Tunadorable",
+            "href": "https://www.youtube.com/@Tunadorable/videos",
+            "icon": "https://i.ytimg.com/vi/nu9lBnyRjos/maxresdefault.jpg"
+        },
+        {
+            "name": "EfficientNLP Youtube",
+            "desc": "My name is Bai Li, I'm a machine learning engineer and PhD in natural language processing.",
+            "tag": "channel",
+            "image_text": "18 videos",
+            "author": "Bai Li",
+            "href": "https://www.youtube.com/@EfficientNLP/videos",
+            "icon": "https://i.ytimg.com/vi/80bIUggRJf4/maxresdefault.jpg"
+        },
+        {
+            "name": "Machine Learning TV Youtube",
+            "desc": "This channel is all about machine learning (ML). It contains all the useful resources which help ML lovers and computer science students gain a better understanding of the concepts of this successful branch of Artificial Intelligence.",
+            "tag": "channel",
+            "image_text": "138 videos",
+            "author": "ML TV",
+            "href": "https://www.youtube.com/@MachineLearningTV/videos",
+            "icon": "https://i.ytimg.com/vi/Wt3Oicmy9VA/maxresdefault.jpg"
+        },
+        {
+            "name": "Deepia Youtube",
+            "desc": "Welcome to Deepia, where I animate deep learning concepts with Manim.",
+            "tag": "channel",
+            "image_text": "6 videos",
+            "author": "Deepia",
+            "href": "https://www.youtube.com/@Deepia-ls2fo/videos",
+            "icon": "https://i.ytimg.com/vi/ip2HYPC_T9Q/maxresdefault.jpg"
+        },
+        {
+            "name": "Vizuara Youtube",
+            "desc": "We are team Vizuara, a fast-growing Indian startup backed by MIT, that is revolutionizing AI education (www.vizuara.ai). Vizuara is founded by alumni from IIT Madras, MIT, and Purdue University.",
+            "tag": "channel",
+            "image_text": "368 videos",
+            "author": "Vizuara",
+            "href": "https://www.youtube.com/@vizuara/videos",
+            "icon": "https://i.ytimg.com/vi/UjdRN80c6p8/maxresdefault.jpg"
+        },
+        {
+            "name": "Yannic Kilcher",
+            "desc": "I make videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.",
+            "tag": "channel",
+            "image_text": "468 videos",
+            "author": "Yannic Kilcher",
+            "href": "https://www.youtube.com/@vizuara/videos",
+            "icon": "https://i.ytimg.com/vi/WwbukAcMM4k/maxresdefault.jpg"
+        },
+        {
+            "name": "Neural Breakdown with AVB",
+            "desc": "AI, Deep Learning, Machine Learning",
+            "tag": "channel",
+            "image_text": "39 videos",
+            "author": "AVB",
+            "href": "https://www.youtube.com/@avb_fj/videos",
+            "icon": "https://i.ytimg.com/vi/KRTEOkYftUY/maxresdefault.jpg"
+        }
+    ],
+    "index": 0
+}

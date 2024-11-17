@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Explore and Discover Courses</title>
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
+    <link rel="stylesheet" href="/static/css/home.css">
+    {% block style %}{% endblock %}
+</head>
+<body>
+    <header>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/">
+                        <img src="/static/img/icon.png" alt="LearnHub Logo">
+                    </a>
+                </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="https://blog.thefcraft.site/">Blog</a></li>
+                    <li><a href="https://github.com/thefcraft">Github</a></li>
+                    <li><a href="mailto:sisodiyalaksh@gmail.com?subject=Resource%20Suggestion%20for%20LearnHub.">Suggest</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="hero">
+        <h2>Welcome to LearnHub!</h2>
+        <p>Your one-stop destination for top-notch courses across various fields. Start learning today with our comprehensive and free resources!</p>
+    </div>
+    <div class="container" id="courses">
+        
+        {% block content %}{% endblock %}
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+    </footer>     
+
+    <script src="/static/script/home.js"></script>
+    {% block script %}{% endblock %}
+
+</body>
+</html>

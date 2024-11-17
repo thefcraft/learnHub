@@ -1,0 +1,62 @@
+{
+    "key": "chill-baby",
+    "name": "Chill",
+    "icon": "/static/img/chill.png",
+    "courses": [
+        {
+            "name": "LOFI and CHILL Youtube",
+            "desc": "Smooth Lofi-Beats and dope Visuals. Leave a sub to join the Community.",
+            "tag": "channel",
+            "image_text": "66 videos",
+            "author": "LOFI & CHILL",
+            "href": "https://www.youtube.com/@LOFIandCHILL_YT/videos",
+            "icon": "https://i.ytimg.com/vi/hBQS0gZATiY/maxresdefault.jpg"
+        },
+        {
+            "name": "Hindi Songs Covers",
+            "desc": "Hindi Songs Covers By Zendria \ud83d\udd4a",
+            "tag": "playlist",
+            "image_text": "43 videos",
+            "author": "Zendria \ud83d\udd4a",
+            "href": "https://www.youtube.com/playlist?list=PLEWeMUL-7fcO01nReXH___ruc-Xji2d9j",
+            "icon": "https://i.ytimg.com/vi/xgwYRUxp2TI/hqdefault.jpg"
+        },
+        {
+            "name": "Phonk Demon Youtube",
+            "desc": "Songs by Phonk Demon",
+            "tag": "channel",
+            "image_text": "66 videos",
+            "author": "Phonk Demon",
+            "href": "https://youtube.com/@PhonkDemonMusic/videos",
+            "icon": "https://i.ytimg.com/vi/JdnEw7slVpk/maxresdefault.jpg"
+        },
+        {
+            "name": "The Soul of Wind Artist Youtube",
+            "desc": "The Soul of Wind Artist - Part of the music label The Soul of Wind We specialize in gentle, relaxing music as well as fantasy, magical, RPG game music. . .",
+            "tag": "channel",
+            "image_text": "192 videos",
+            "author": "The Soul of Wind Artist",
+            "href": "https://www.youtube.com/@TheSoulofWindArtist/videos",
+            "icon": "https://i.ytimg.com/vi/Vm799ekPdc8/maxresdefault.jpg"
+        },
+        {
+            "name": "Sunset Mood Youtube",
+            "desc": "Sunset Mood \u00a9 Magic Music Group LLC 2022. We own rights to all content uploaded. Any reproduction of this content will result in a Content ID claim.",
+            "tag": "channel",
+            "image_text": "428 videos",
+            "author": "Sunset Mood",
+            "href": "https://www.youtube.com/@sunsetmoodz/videos",
+            "icon": "https://i.ytimg.com/vi/sXolSIrZjdw/maxresdefault.jpg"
+        },
+        {
+            "name": "b\u00fct\u00fcn coverlar / all covers",
+            "desc": "b\u00fct\u00fcn coverlar / all covers By Nursena Yener",
+            "tag": "playlist",
+            "image_text": "142 videos",
+            "author": "Nursena Yener",
+            "href": "https://www.youtube.com/playlist?list=PLkTt3JK3b61QgirOVj1ou0tYCiDXlxMFl",
+            "icon": "https://i.ytimg.com/vi/C237b1fh_Ic/maxresdefault.jpg"
+        }
+    ],
+    "index": 8
+}

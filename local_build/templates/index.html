@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block style %}
+<style>
+    {% for k,v in TagColors %}.{{ k }} { background: {{ v }}; }{% endfor %}
+</style>
+{% endblock %}
+
+{% block content %}
+
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for courses...">
+        </div>
+        <div class="filter">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                {% for category in categories %}
+                <option value="{{ category.key }}">{{ category.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+    {% for category in categories %}
+        {% if category.n>0 %}
+        <div class="category" data-category="{{ category.key }}" id="category-id-{{ category.key }}">
+            <h2><img src="{{ category.icon }}" class="category-icon" alt="{{ category.name }}">{{ category.name }}</h2>
+            <div class="category-info">
+                <p class="total-count">Total Courses: <span id="{{ category.key }}-count">{{ category.n }}</span></p>
+            </div>
+            <div class="course-grid" id="{{ category.key }}-courses">
+                
+                {% for course in category.courses %}
+                <div class="course-item"  onclick="redirect(this)">
+                    <div class="image">
+                        <img src="{{ course.icon }}" alt="{{ course.name }}">
+                        <div class="videosCount">{{ course.image_text }}</div>
+                    </div>
+                    
+                    <div class="course-info">
+                        <h3><a href="{{ course.href }}">{{ course.name }}</a></h3>
+                        <p>{{ course.desc }}</p>
+                        <section class="tag">
+                            <span class="{{ course.tag }}">{{ course.tag }}</span>
+                            <span class="author"><b><i>Author: </i></b>{{ course.author }}</span>
+                        </section>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+            <div class="view-more">
+                <button id="{{ category.key }}-courses-view-more">View More</button>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+    
+{% endblock %}
+
+{% block script %}
+
+    <script type="text/javascript">
+        // Initialize view more functionality
+        {% for category in categories %}toggleViewMore('{{ category.key }}-courses');{% endfor %}
+        document.querySelectorAll('.category').forEach(function(category) {
+            const count = category.querySelectorAll('.course-item').length;
+            category.querySelector('.total-count span').textContent = count;
+            const viewMoreButton = category.querySelector('.view-more button');
+            viewMoreButton.disabled = count <= 4;
+        });
+
+    </script>
+
+{% endblock %}

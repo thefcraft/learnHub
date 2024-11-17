@@ -1,0 +1,3 @@
+htmlmin
+jinja2
+beautifulsoup4

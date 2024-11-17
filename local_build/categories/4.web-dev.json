@@ -1,0 +1,35 @@
+{
+    "key": "web-dev",
+    "name": "Web Development",
+    "icon": "https://img.icons8.com/ios-filled/50/000000/web.png",
+    "courses": [
+        {
+            "name": "JavaScript Mastery Youtube",
+            "desc": "Master modern web development with a project-based approach",
+            "tag": "channel",
+            "image_text": "156 videos",
+            "author": "JS Mastery",
+            "href": "https://www.youtube.com/@javascriptmastery/videos",
+            "icon": "https://i.ytimg.com/vi/B91wc5dCEBA/maxresdefault.jpg"
+        },
+        {
+            "name": "Lun Dev Code Youtube",
+            "desc": "HTML CSS Javascript code tutorial, learning HTML, learning CSS, learning Javascript, get code free HTML CSS JAVASCRIPT, animation code. reponsive code.",
+            "tag": "channel",
+            "image_text": "206 videos",
+            "author": "LunDev",
+            "href": "https://www.youtube.com/@lundeveloper/videos",
+            "icon": "https://i.ytimg.com/vi/bnC-kuL_CYw/maxresdefault.jpg"
+        },
+        {
+            "name": "Codex Community Youtube",
+            "desc": "Codex is a channel dedicated to the future of development and design for websites using no-code. Including the use of AI, tools like ChatGPT and MidJourney, with the use of code and no-code platforms as they are becoming relevant for future jobs and knowledge. Powered by @WixStudio and together with people such as Adrian Twarog has been creating youtube videos since 2020!",
+            "tag": "channel",
+            "image_text": "95 videos",
+            "author": "Codex",
+            "href": "https://www.youtube.com/@CodexCommunity/videos",
+            "icon": "https://i.ytimg.com/vi/qthkkHPNAYQ/maxresdefault.jpg"
+        }
+    ],
+    "index": 4
+}
